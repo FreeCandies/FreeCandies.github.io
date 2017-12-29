@@ -110,7 +110,7 @@ function check(e){
 	);
 }
 
-var ID = "SweetCandy";
+var ID = "SweetCandy"+(new Date()).getSeconds();
 var param = window.location.search;
 window.onload = function(){
 	CANDY.init(ID,e=>{
